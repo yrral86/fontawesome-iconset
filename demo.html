@@ -55,7 +55,7 @@
     <template is="dom-repeat" items="{{iconsets}}">
 	  <h2>{{item.name}}</h2>
       <div class="set horizontal wrap layout">
-        <template is="dom-repeat" items="{{item.iconNames}}">
+        <template is="dom-repeat" items="{{getIconNames(item)}}">
           <span class="container vertical center layout">
             <iron-icon icon="{{item}}"></iron-icon>
             <div>{{item}}</div>
@@ -64,5 +64,10 @@
       </div>
     </template>
   </template>
+  <script>
+  document.querySelector("[is=dom-bind]").getIconNames = function(iconset) {
+    return iconset.getIconNames();
+  };
+  </script>
 </body>
 </html>
