@@ -1,15 +1,20 @@
 {
   "name": "fontawesome-iconset",
-  "version": "4.4.1",
+  "version": "4.5.0",
   "description": "Polymer/core-icon compatible iconset based on Font Awesome SVG font",
   "main": "update.js",
   "author": "Sacha Kyvner <philya@gmail.com>",
-  "contributors": [{
-    "name": "Lucas Matías Ciruzzi",
-    "email": "lucasmciruzzi@live.com"
-  }],
+  "contributors": [
+    {
+      "name": "Lucas Matías Ciruzzi",
+      "email": "lucasmciruzzi@live.com"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
+    "@types/js-yaml": "^3.5.28",
+    "@types/node": "^6.0.46",
+    "@types/request": "0.0.33",
     "js-yaml": "^3.2.6",
     "request": "^2.53.0"
   },
