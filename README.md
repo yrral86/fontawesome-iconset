@@ -6,7 +6,10 @@
 
 # Set Up
 ````sh
+# bower
 bower install fontawesome-iconset
+# npm
+npm install fontawesome-iconset
 ````
 # Use
 
