@@ -1,5 +1,4 @@
-**This package was abandonned. Fill PRs to the original repo: [philya/font-awesome-polymer-icons](https://github.com/philya/font-awesome-polymer-icons)**
-
+**This package was deprecated. Fill PRs to the original repo: [philya/font-awesome-polymer-icons](https://github.com/philya/font-awesome-polymer-icons)**
 
 ----
 
@@ -33,6 +32,6 @@ And use it like this:
 To update to the latest version of FontAwesome, just install node modules and run "update"
 ````sh
 npm install
-node update
+npm run update
 ````
 Soon there will be a production script to export only the icons to be used (like the original [font-awesome-polymer-icons-generator](https://github.com/philya/font-awesome-polymer-icons-generator) but in node).
