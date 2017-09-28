@@ -1,3 +1,8 @@
+**This package was abandonned. Fill PRs to the original repo: [philya/font-awesome-polymer-icons](https://github.com/philya/font-awesome-polymer-icons)**
+
+
+----
+
 [Font Awesome](https://github.com/FortAwesome/Font-Awesome) as a [PolymerElements/iron-iconset-svg](https://github.com/PolymerElements/iron-iconset-svg) component.
 
 # Set Up
