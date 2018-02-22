@@ -10,10 +10,6 @@
       "email": "lucasmciruzzi@live.com"
     }
   ],
-  "scripts": {
-    "update": "node ./update",
-    "postinstall": "npm run -s update"
-  },
   "license": "MIT",
   "dependencies": {
     "@types/js-yaml": "^3.5.28",
@@ -24,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vangware/font-awesome-iconset"
+    "url": "https://github.com/yrral86/font-awesome-iconset"
   },
   "keywords": [
     "Font Awesome",
